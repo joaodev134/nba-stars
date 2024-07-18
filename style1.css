@@ -1,0 +1,142 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Designer';
+    src: url(/fonts/Designer.otf);
+}
+
+@font-face {
+    font-family: 'Caviar Dreams';
+    src: url(/fonts/CaviarDreams.ttf);
+}
+
+* {
+    margin: 0px;
+}
+
+:root {
+    --cor1: #BE0B31;
+    --cor2: #95223B;
+    --cor3: #74A1E8;
+    --cor4: #002768;
+
+    --Font-Header-h1: 'Designer';
+    --Font-Main-H1-H2: 'Roman Pride';
+}
+
+body {
+    background-color: var(--cor2);
+}
+
+header {
+    background-color: var(--cor4);
+    padding-bottom: 2px;
+}
+
+header h1 {
+    text-align: center;
+    font-family: 'Designer';
+    font-size: 4em;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+}
+
+header p {
+    text-align: center;
+    font-size: 1.5em;
+    color: rgba(255, 255, 255, 0.5);
+    padding-top: 5px;
+    padding-bottom: 40px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header a {
+    color: white;
+    background-color: var(--cor1);
+    font-weight: bold;
+    font-size: 1.5em;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 0px 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+header a:hover {
+    text-decoration: underline;
+    background-color: white;
+    color: var(--cor1);
+    transition-duration: .5s;
+}
+
+main {
+    background-color: white;
+    padding: 0px 2em 15px 2em;
+    max-width: 700px;
+    min-width: 1px;
+    margin: auto;
+}
+
+main h1 {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    font-family: 'Caviar Dreams';
+    font-size: 3em;
+}
+
+main h2 {
+    font-family: 'Caviar Dreams';
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    font-size: 3em;
+}
+
+main p {
+    text-align: justify;
+    text-indent: 2em;
+    font-size: 1.5em;
+    padding-bottom: 20px;
+    line-height: 1.5em;
+}
+
+main a {
+    color: blue;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+main a:hover {
+    text-decoration: underline;
+}
+
+ul li {
+    font-size: 1.5em;
+    padding-top: 5px;
+}
+
+ul li.linkbaixo {
+    padding-bottom: 20px;
+}
+
+ul li.linkcima {
+    padding-top: 5px;
+}
+
+footer {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 5px;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+footer a:hover {
+    color: var(--cor2);
+}
